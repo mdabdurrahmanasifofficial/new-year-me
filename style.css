@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    display: block;
+}
+
+.hero-image {
+    background-image: url("images/banner/banner2.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+}
+
+.hero-text {
+    text-align: right;
+    position: absolute;
+    margin: 100px 200px 150px 800px;
+    color: white;
+}
+
+.hero-text h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 12px;
+    color: black;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.btn {
+    padding: 20px 25px;
+    background-color: rgb(241, 91, 34);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+
+#first-section {
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.half-width-one img {
+    margin: 100px 0 100px 100px;
+}
+
+.half-width-two {
+    margin-right: 300px;
+}
+
+.half-width-two h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.half-width-two p {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+
+
+.half-width-two ul {
+    list-style-image: url(images/icons/tik-mark.png);
+    list-style-position: outside;
+    line-height: 30px;
+}
+
+
+#second-section {
+    margin-bottom: 100px;
+}
+
+.fixing {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second-section-logo {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.second-section-logo h2 {
+    padding-top: 20px;
+}
+
+.second-section-logo h2 b {
+    font-weight: 700;
+}
+
+.second-section-logo p {
+    padding-top: 10px;
+}
+
+
+/* Bonus */
+
+#bonus-section {
+    margin-bottom: 100px;
+}
+
+.bonus-fixing {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bonus-section-logo {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.bonus-section-logo h2 {
+    padding-top: 20px;
+}
+
+.bonus-section-logo h2 b {
+    font-weight: 700;
+}
+
+.bonus-section-logo p {
+    padding-top: 10px;
+}
+
+
+
+#third-section {
+    height: 300px;
+}
+
+.third-section-image {
+    border-radius: 5px;
+    margin: 150px;
+    width: 80%;
+    height: 250px;
+    background-image: linear-gradient(to right, rgb(241, 91, 34), rgba(255,0,0,0)), url(images/watch.png);
+    position: relative;
+}
+.third-section-call h1{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 50px 550px 10px 60px;
+    color: white;
+}
+.call-btn{
+    padding: 20px 25px;
+    background-color: white;
+    color: rgb(241, 91, 34);
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-left: 60px;
+}
+footer{
+    background-color: black;
+}
+footer .cp{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#footer-section{
+    display: flex;
+    height: 400px;
+}
+.footer-future{
+    width: 50%;
+    color: white;
+    margin: 100px 200px 0 150px;
+}
+.footer-future h2{
+    margin-bottom: 20px;
+}
+.footer-future p{
+    margin-bottom: 15px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+#footer-section .email{
+    margin-bottom: 20px;
+}
+
+.contact-icon{
+    margin-top: 20px;
+}
+.contact-icon ul{
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+}
+.contact-icon li{
+    list-style: none;
+    padding-right: 10px;
+    height: 5px;
+    display: inline-block;
+}
+.contact-icon img{
+    width: 30px;
+}
+
+.footer-subscribe{
+    width: 50%;
+    color: white;
+    margin-top: 100px;
+}
+.footer-subscribe h3{
+    margin-bottom: 20px;
+}
+.footer-subscribe label input{
+    height: 40px;
+    width: 200px;
+    padding-left: 20px;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.subscribe-btn{
+    padding: 15px 20px;
+    background-color: white;
+    color: rgb(241, 91, 34);
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+}
